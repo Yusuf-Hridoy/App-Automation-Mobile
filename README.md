@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/Yusuf-Hridoy/App-Automation-Mobile/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-<p id="description">This project demonstrates a robust automation framework for testing the login functionality of a mobile application. Built using Selenium Appium and Java it focuses on ensuring a seamless and reliable user authentication process.</p>
+<p id="description">This project is a mobile test automation framework built using Appium with the Page Object Model (POM) structure to ensure scalability and maintainability. It supports testing on both real devices and cloud platforms (BrowserStack) and includes gesture-based interactions like swipe and drag-and-drop. Additionally, Extent Reports are integrated for detailed test execution analysis.</p>
 
   
   
@@ -10,8 +10,12 @@
 
 Here're some of the project's best features:
 
-*   Login Flow Testing: Verifies the correctness of user authentication including valid and invalid credential scenarios.
-*   Appium Integration: Utilizes Appium for interacting with native mobile app elements
+* ✅ Page Object Model (POM) Structure – Organized test scripts using the POM design pattern for better maintainability.
+* 📱 Swipe & Drag-and-Drop Gestures – Implemented mobile gestures for enhanced test scenarios.
+* ☁️ Cloud Testing with BrowserStack – Integrated BrowserStack to execute tests on multiple real devices.
+* 📊 Extent Reports for Test Reporting – Added Extent Reports for detailed test execution reports with screenshots.
+* Login Flow Testing: Verifies the correctness of user authentication including valid and invalid credential scenarios.
+* Appium Integration: Utilizes Appium for interacting with native mobile app elements
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -33,3 +37,4 @@ Technologies used in the project:
 *   Automation Tools: Selenium Appium
 *   Test Framework: TestNG
 *   Build Tool: Maven
+*   BrowserStack – Cloud-based mobile device testing
