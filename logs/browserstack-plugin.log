@@ -1,0 +1,49 @@
+23:52:52.964 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+23:52:52.999 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=9yoS6YGw1NB2onGygLmQ, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.5, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=yusufahmed_iBGKJN, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.10]
+23:53:08.046 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:53:08.047 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:53:08.047 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+23:53:08.048 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:53:08.048 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:53:08.048 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:08:34.019 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:08:34.019 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:08:34.019 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+00:08:34.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:08:34.020 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:08:34.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:09:34.087 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:09:34.087 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:09:34.087 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+00:09:34.088 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:09:34.088 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:09:34.088 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:15:07.984 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:15:07.985 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:15:07.985 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+00:15:07.985 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:15:07.985 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:15:07.986 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:22:50.562 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:22:50.562 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:22:50.563 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+00:22:50.563 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:22:50.563 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:22:50.563 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:25:21.821 [Worker-42: Launching testLogin.Ftest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:25:21.822 [Worker-42: Launching testLogin.Ftest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+00:25:21.823 [Worker-42: Launching testLogin.Ftest] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:21.823 [Worker-42: Launching testLogin.Ftest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+00:29:07.813 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:29:07.813 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:29:07.814 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+00:29:07.814 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:29:07.814 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:29:07.815 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:30:52.036 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:30:52.036 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:30:52.037 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/Mobile_Project
+00:30:52.037 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:30:52.037 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:30:52.038 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/Mobile_Project
+00:35:00.861 [Framework stop - Equinox Container: 6e738810-5251-40d7-85f8-09e10f6dd81e] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

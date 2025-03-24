@@ -1,12 +1,19 @@
 package Testing;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.time.Duration;
+import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.AfterClass;
@@ -27,6 +34,12 @@ public class Base {
 	@BeforeClass
 	public void CommonConfigure() throws MalformedURLException, URISyntaxException {
 		// this line of code is for to invoke the appium server from the local machine
+		//Properties prop = new Properties();
+		//FileInputStream fis = new FileInputStream("D:\\Mobile qa Auto\\Mobile_Project\\src\\main\\java\\resources\\data.properties");
+	//	prop.load(fis);
+	//	String ipAddress = prop.getProperty("ipAddress");
+	//	servive = startAppiumServer(ipAddress);
+		
 			 servive = new  AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\Md Yusuf Ahmed\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
 						.withIPAddress("127.0.0.1").usingPort(4723).build();
 				servive.start();
@@ -49,9 +62,19 @@ public class Base {
 		((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of(
 			    "elementId", ((RemoteWebElement)imageView).getId(),
 			    "direction", direction,
-			    "percent", 0.75
+			    "percent", 1.0
 			));
 	}
+	
+	public String screenshot( WebDriver driver, String testname) throws IOException {
+	    File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	    String destination = System.getProperty("user.dir") + "\\reports\\" + testname + ".png";
+	    File destinationFile = new File(destination);
+	    FileUtils.copyFile(source, destinationFile);
+	    return destination;
+	}
+	
+	
 	@AfterClass
 	public void finish() {
 		driver.quit();

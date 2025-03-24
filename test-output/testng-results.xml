@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-12T20:38:32 BDT" name="Default suite" finished-at="2025-01-12T20:38:53 BDT" duration-ms="20487">
+  <suite started-at="2025-03-22T15:58:15 BDT" name="Default suite" finished-at="2025-03-22T15:58:25 BDT" duration-ms="9708">
     <groups>
     </groups>
-    <test started-at="2025-01-12T20:38:32 BDT" name="Default test" finished-at="2025-01-12T20:38:53 BDT" duration-ms="20487">
-      <class name="Testing.LoginTest">
-        <test-method is-config="true" signature="CommonConfigure()[pri:0, instance:Testing.LoginTest@6f03482]" started-at="2025-01-12T20:38:32 BDT" name="CommonConfigure" finished-at="2025-01-12T20:38:39 BDT" duration-ms="6403" status="PASS">
+    <test started-at="2025-03-22T15:58:15 BDT" name="Default test" finished-at="2025-03-22T15:58:25 BDT" duration-ms="9708">
+      <class name="Testing.testswipe">
+        <test-method is-config="true" signature="CommonConfigure()[pri:0, instance:Testing.testswipe@61e94def]" started-at="2025-03-22T15:58:15 BDT" name="CommonConfigure" finished-at="2025-03-22T15:58:20 BDT" duration-ms="4309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CommonConfigure -->
-        <test-method signature="LoginSuccess()[pri:0, instance:Testing.LoginTest@6f03482]" started-at="2025-01-12T20:38:39 BDT" name="LoginSuccess" finished-at="2025-01-12T20:38:53 BDT" duration-ms="13762" status="PASS">
+        <test-method signature="Ftest()[pri:0, instance:Testing.testswipe@61e94def]" started-at="2025-03-22T15:58:20 BDT" name="Ftest" finished-at="2025-03-22T15:58:25 BDT" duration-ms="5150" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginSuccess -->
-        <test-method is-config="true" signature="finish()[pri:0, instance:Testing.LoginTest@6f03482]" started-at="2025-01-12T20:38:53 BDT" name="finish" finished-at="2025-01-12T20:38:53 BDT" duration-ms="296" status="PASS">
+        </test-method> <!-- Ftest -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:Testing.testswipe@61e94def]" started-at="2025-03-22T15:58:25 BDT" name="finish" finished-at="2025-03-22T15:58:25 BDT" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-      </class> <!-- Testing.LoginTest -->
+      </class> <!-- Testing.testswipe -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
